@@ -411,6 +411,16 @@ display(files)
 
 # COMMAND ----------
 
+# MAGIC %sql
+# MAGIC show tables
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC show schemas
+
+# COMMAND ----------
+
 DA.cleanup()
 
 # COMMAND ----------
